@@ -3,7 +3,7 @@ import java.util.List;
 
 public class Route {
     private String id; // ID da rota
-    private String edges; // Lista de arestas que compõem a rota
+    public String edges; // Lista de arestas que compõem a rota
     private double departureTime; // Tempo de partida da rota
 
     // Construtor
