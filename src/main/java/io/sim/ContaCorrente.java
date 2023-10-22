@@ -1,6 +1,6 @@
 package io.sim;
 
-class ContaCorrente extends Thread {
+public class ContaCorrente extends Thread {
     private double saldo;
 
     public ContaCorrente(double saldoInicial) {
@@ -25,6 +25,9 @@ class ContaCorrente extends Thread {
 
     @Override
     public void run() {
-        // Coloque aqui qualquer lógica específica da thread da Conta Corrente
+        
+    }
+
+    public void setSaldo(double d) {
     }
 }

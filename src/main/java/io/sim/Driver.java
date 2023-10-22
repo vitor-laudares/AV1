@@ -1,6 +1,6 @@
 package io.sim;
 
-class Driver {
+public class Driver {
     private ContaCorrente conta;
     private FuelStation fuelStation;
 

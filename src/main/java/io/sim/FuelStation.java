@@ -1,6 +1,8 @@
 package io.sim;
 
-class FuelStation {
+import io.Car;
+
+public class FuelStation {
     private ContaCorrente conta;
 
     public FuelStation(double saldoInicial) {
@@ -10,5 +12,9 @@ class FuelStation {
 
     public ContaCorrente getContaCorrente() {
         return conta;
+    }
+
+    public void abastecer(Car car) {
+        
     }
 }

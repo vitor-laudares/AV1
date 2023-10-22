@@ -57,7 +57,6 @@ public class TransportService extends Thread {
 		for (String e : aux[1].split(" ")) {
 			edge.add(e);
 		}
-		//BLABLA
 		try {
 			sumo.do_job_set(Route.add(this.itinerary.getIdItinerary(), edge));
 			//sumo.do_job_set(Vehicle.add(this.auto.getIdAuto(), "DEFAULT_VEHTYPE", this.itinerary.getIdItinerary(), 0,
