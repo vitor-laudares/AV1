@@ -48,12 +48,12 @@ public class Car implements Runnable {
                 }
             }
 
-            // Aqui, você pode adicionar a lógica para executar a rota e se comunicar com a Company
+            
         }
     }
 
     public void abastecer() {
-        // Verifica se o Driver tem saldo para abastecimento
+        
         double saldoDriver = driver.getContaCorrente().getSaldo();
         if (saldoDriver >= 5.87) { // Valor de abastecimento por litro
             driver.getContaCorrente().sacar(5.87);
